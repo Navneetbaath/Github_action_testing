@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "e2d7a294-adb6-41e1-8846-c92e5a8a7f47",
+		"name": "Jenkins Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26763010"
+	},
+	"item": [
+		{
+			"name": "Get_User_Account_Data Copy",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "{{name}}",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "{{email}}",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "{{password}}",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "{{title}}",
+							"type": "text"
+						},
+						{
+							"key": "birth_date",
+							"value": "{{birth_date}}",
+							"type": "text"
+						},
+						{
+							"key": "birth_month",
+							"value": "{{birth_month}}",
+							"type": "text"
+						},
+						{
+							"key": "birth_year",
+							"value": "{{birth_year}}",
+							"type": "text"
+						},
+						{
+							"key": "firstname",
+							"value": "{{firstname}}",
+							"type": "text"
+						},
+						{
+							"key": "lastname",
+							"value": "{{lastname}}",
+							"type": "text"
+						},
+						{
+							"key": "company",
+							"value": "{{company}}",
+							"type": "text"
+						},
+						{
+							"key": "address1",
+							"value": "{{address1}}",
+							"type": "text"
+						},
+						{
+							"key": "address2",
+							"value": "{{address2}}",
+							"type": "text"
+						},
+						{
+							"key": "country",
+							"value": "{{country}}",
+							"type": "text"
+						},
+						{
+							"key": "zipcode",
+							"value": "{{zipcode}}",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "{{state}}",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "{{city}}",
+							"type": "text"
+						},
+						{
+							"key": "mobile_number",
+							"value": "{{mobile_number}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://automationexercise.com/api/getUserDetailByEmail?email=Tom@gmail.com",
+					"protocol": "https",
+					"host": [
+						"automationexercise",
+						"com"
+					],
+					"path": [
+						"api",
+						"getUserDetailByEmail"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "Tom@gmail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
