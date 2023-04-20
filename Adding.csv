@@ -1,0 +1,5 @@
+﻿name,email,password,title,birth_date,birth_month,birth_year,firstname,lastname,company,address1,address2,country,zipcode,state,city,mobile_number
+Tom,Tom@gmail.com,Tom@62,mr,29,9,1992,Nirvair ,Singh,qa,Massey,www,canada,l8s,alberta,a,55555555
+Jonny,Jonny@gmail.com,Jonny@62,mr,20,6,1991,hira,singh,ty,Massey,www,autralia,87878,sydeney,syd,8888
+Paw,Paw@gmail.com,Paw@62,mr,5,7,1992,tej,singh,gh,Massey,www,canada,ytu,florida,fgfff,555555333
+Gecko,Gecko@gmail.com,Gecko@62,mr,7,7,1994,har,singh,gtyy,Massey,www,usa,yyy,hjhjh,ssxs,76543212345
